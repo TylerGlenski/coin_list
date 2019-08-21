@@ -1,0 +1,32 @@
+.history--section {
+    padding: 0 50px;
+    margin-bottom: 40px;
+
+}
+
+.history--section h2 {
+    font-size: 20px;
+    margin: 3em;
+    }
+
+.history--section__box__inner {
+    background-color: white;
+}
+.date-p {
+    color:blue;
+}
+
+
+/* .history--section__box__inner p {
+
+} */
+
+.history--section__box__inner hr {
+    width: 80%;
+    margin: 1em;
+}
+
+
+@media screen and (max-width: 480px) {
+    
+}

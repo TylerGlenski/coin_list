@@ -1,0 +1,51 @@
+.current--section {
+    padding: 0 50px;
+    margin-bottom: 40px;
+
+}
+
+.current--section h2 {
+font-size: 20px;
+}
+.today--section__box {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.btc--section {
+    text-align: center;
+    border-right: 1px solid #DAE1E9;
+}
+.btc--section h5 {
+font-size: 30px;
+}
+.ltc--section {
+    text-align: center;
+    border-right: 1px solid #DAE1E9;
+}
+.ltc--section h5 {
+font-size: 30px;
+}
+.eth--section {
+    text-align: center;
+}
+.eth--section h5 {
+font-size: 30px;
+}
+
+@media (max-width: 480px) {
+    .ltc--section {
+        border-right: none
+    }
+    .btc--section{
+        border-right: none;
+    }
+    .eth--section{
+        border-right:none;
+    }
+    .current--section{
+        margin-top: 50px;
+    }
+}

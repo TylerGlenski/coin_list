@@ -11,7 +11,17 @@
   padding: 20px 0px;
   margin-top: 40px;
 }
-h2 {
+.results--section h1{
+  padding: 10px;
+}
+h1 {
   text-align: center;
   font-size: 30px;
+}
+h2 {
+  text-align: center;
+  font-size: 20px;
+}
+p {
+  text-align: center;
 }
